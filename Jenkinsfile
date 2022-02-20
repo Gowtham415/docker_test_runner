@@ -3,7 +3,7 @@ pipeline{
     stages{
         stage("Pull framework Image"){
             steps{
-                    sh "docker pull gowtham415/docker-selenium"
+                    sh "docker pull gowtham415/selenium-docker"
             }
         }
         stage("Start grid"){
